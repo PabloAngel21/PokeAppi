@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<!--conectar css y libreria jquery y bootstrap-->
+		<link rel="stylesheet" type="text/css" href="../css/style1.css">
+		<script type="text/javascript" src="../libs/jquery/jquery.js"></script>
+		<meta charset="utf-8">
+		<title>Registro</title>
+		<link rel="stylesheet" type="text/css" href="../libs/boot/css/bootstrap.css">
+	</head>
+	<body>	
+		
+		<center>
+			<form>
+				<div class="container c">
+				<div class="row">
+					<div class="col-md-12 i">
+						<img src="../img/logo.png" class="img-fluid" width="250px"><br>
+						<h1>Registro</h1>
+					</div>
+				</div>
+				<div class="row">
+					
+					<div class="col-md-12 iii">
+						<h4>Nombre :</h4>
+						<input type="text" name="nombre" id="nombre" placeholder="Nombre"><br><br><br>
+						<h4>Nombre Usuario:</h4>
+						<input type="text" name="username" id="usuario" placeholder="Nombre de Usuario"> <br><br><br>
+						<h4>Contraseña :</h4>
+						<input type="password" name="contra" id="contra" placeholder="contraseña"> <br><br><br>
+						<h4>Nacimiento:</h4>
+						<input type="date" name="nacimiento" id="nacimiento" placeholder="Fecha de Nacimiento"> <br><br><br>
+						<h4>Genero:</h4>
+        				<input type="radio" id="sexo" name="sexo" value="hombre" checked autofocus ><div class="nn">Hombre</div> 
+        				<input type="radio" id="sexo" name="sexo" value="mujer"> <div class="nn">Mujer</div>
+        				<input type="radio" id="sexo" name="sexo" value="otro"><div class="nn">Otro</div> <br><br>
+
+					</div>
+					<br>
+					<div class="col-md-12">
+					<input type="button" id="button" onclick=" location.href='../index.html' " value="Registrar" name="boton" /> <br><a href="../index.html" class="aa">ya tienes una cuenta?</a><br><br>
+					</div>
+
+				</div>
+				</div>
+			</form>
+
+				
+		</center>
+		
+		<!--Librerias Angular y bootstrap-->
+		<script type="text/javascript" src="../libs/angular/angular.js"></script>
+		<script type="text/javascript" src="../libs/boot/js/bootstrap.js"></script>
+	</body>
+
+</html>

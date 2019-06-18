@@ -1,0 +1,53 @@
+/*Escriba su hoja de estilo*/
+body{
+	background: url(../img/f2.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	-webkit-background-size:cover;
+}
+.i h1{
+	-webkit-text-fill-color: #8A0808;
+	-webkit-text-stroke: 1.5px white;
+	font-weight: bolder;
+	font-size: 10vh ;
+	font-family: Comic Sans MS;
+}
+.iii h4{
+	-webkit-text-fill-color: #FF0000;
+	-webkit-text-stroke: 1.5px white;
+	font-weight: bolder;
+	font-size: 4vh ;
+	font-family: Comic Sans MS;
+	text-align:center;
+}
+.iii input{
+	-webkit-text-stroke: 0.5px white;
+	font-weight: bolder;
+	font-size: 3vh ;
+	font-family: Comic Sans MS;
+	text-align:center;
+}
+.nn{
+	font-weight: bolder;
+	-webkit-text-stroke: 0.5px white;
+	font-size: 3vh ;
+	font-family: Comic Sans MS;
+	text-align:center;
+}
+#button{
+	padding: 10px;
+	padding-left:50px;
+	padding-right:50px;
+	font-family: Comic Sans MS;
+	font-size: 4vh;
+	background-color: #8A0808;
+	color:#f2f2f2;
+}
+.aa {
+	-webkit-text-fill-color: orange;
+	-webkit-text-stroke: 1px black;	
+	font-weight: bold;
+	font-size: 4vh;
+}
+
